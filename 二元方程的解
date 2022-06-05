@@ -1,0 +1,12 @@
+ #include"stdio.h"
+ main(){
+ float x,y;
+	scanf("%f",&x);
+	if(x==0||x==2)
+		y=0;
+	else if(x<0)
+       y=(x-1)/(x-2);
+  else
+       y=(x+1)/(x-2);
+	printf("x=%f y=%f\n",x,y);
+  }
