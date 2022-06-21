@@ -1,0 +1,10 @@
+#include"stdio.h"
+ int main()
+ {
+	 float f,c;
+	 printf("华氏摄氏度：");
+	 scanf("%f",&f);//输入华氏摄氏度f
+	 c=(5.0/9)*(f-32); //公式
+	 printf("摄氏度：%f\n",c);//输出摄氏度c
+	 return 0;
+ }
