@@ -1,0 +1,13 @@
+#include"stdio.h"
+int main()
+{
+  float f0,f1,f2,f3,r1=0.01,r2=0.2,r3=0.1;//定义三种利息
+  printf("输入存的钱f0：");
+  scanf("%f",&f0);
+  f1=f0*(1+r1);//第一种
+  f2=f0*(1+r2);
+  f3=f0*(1+r3)*(1+r3);
+  printf(" f1=%f\n f2=%f\n f3=%f\n",f1,f2,f3);
+  return 0;
+
+}
